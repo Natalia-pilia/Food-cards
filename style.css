@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=DM+Serif+Display:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card{
+    width: 360px;
+    height: 528px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background: #FFFFFF;
+    position: relative;
+}
+
+.img{
+    width: 360px;
+    height: 216px;
+    position: relative;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+.info-icon{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 10px;
+    left: 285px;
+}
+
+.food{
+    padding: 32px 24px 23px 24px;
+    width: 360px;
+    height: 25px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "DM Serif Display";
+    display: flex;
+    justify-content: space-between;
+    gap: 43px;
+}
+
+.food-name{
+    color: #081F32;
+}
+
+.text{
+    padding: 32px 0 0 24px;
+    width: 327px;
+    height: 75px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    color: #6E798C;
+}
+
+.info{
+    margin: 45px 0 0 24px;
+    width: 312px;
+    height: 25px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    color: #A5ADBB;
+    display: flex;
+    justify-content: space-between;
+    gap: 38px;
+
+}
+
+.cal{
+    width: 58px;
+    height: 25px;
+}
+
+.price{
+    margin: 36px 0 0 24px;
+    font-family: "DM Serif Display";
+    font-weight: 400;
+    gap: 8px;
+    display: flex;
+}
+
+.dollar{
+    width: 88px;
+    height: 25px;
+    font-size: 28px;
+    color: #081F32;
+}
+
+.dollar2{
+    padding: 6px 0 0 0;
+    width: 73px;
+    height: 25px;
+    font-size: 20px;
+    text-decoration: line-through;
+    color: #F8593B;
+}
+
+.order{
+    display: flex;
+    position: absolute;
+    top: 449px;
+    left: 222px;
+    
+}
+
+.order button{
+    width: 114px;
+    height: 44px;
+    border-radius: 5px;
+    border-style: none;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #2ECC71;
+}
+
+.img2{
+    width: 360px;
+    height: 216px;
+    position: relative;
+}
+
+.img2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+.img3 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+.img3{
+    width: 360px;
+    height: 216px;
+    position: relative;
+}
+
+.icons{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 9px;
+    position: absolute;
+    top: 250px;
+    left: 320px;
+}
+
